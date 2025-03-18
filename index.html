@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="container-header-banner">
-            <ul>
+            <ul id="header-menu">
                 <li><a href="#" class="uppercase">accueil</a></li>
                 <li><a href="#" class="uppercase">actualites</a></li>
                 <li><a href="#" class="uppercase">contact</a></li>
@@ -19,7 +19,7 @@
     </header>
     <main>
         <section class="container-header-banner banner">
-            <img src="./assets/img/Resident_Evil_4_Logo_Light_Outlined.png" alt="resident evil 4 logo" id="img-logo">
+            <img src="./assets/img/Resident_Evil_4_Logo_Light_Outlined.png" alt="resident evil 4 logo" class="img-logo" id="img-logo-banner">
             <h1 class="uppercase">redecouvrez un classique</h1>
         </section>
         <section class="container describe">
@@ -61,11 +61,23 @@
         </section>
     </main>
     <footer>
-        <h2 class="uppercase">abbonnez-vous a notre newsletter</h2>
-        <form action="">
-            <input type="email" name="email" id="email" placeholder="Votre adresse e-mail">
-            <input type="submit" value="S'abonner" class="cta cta-secondary">
-        </form>
+        <section id="newsletter">
+            <h2 class="uppercase">abbonnez-vous a notre newsletter</h2>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Votre adresse e-mail">
+                <input type="submit" value="S'abonner" class="cta cta-secondary">
+            </form>
+        </section>
+        <section id="infos">
+            <img src="./assets/img/Resident_Evil_4_Logo_Light_Outlined.png" alt="resident evil 4 logo" class="img-logo" id="img-logo-footer">
+            <ul id="footer-menu">
+                <li><a href="#">Mentions legales</a></li>
+                <li><a href="#">Politique de confidentialite</a></li>
+                <li><a href="#">Preferences en matiere de cookies</a></li>
+                <li><a href="#">Public Ciblees</a></li>
+                <li><a href="#">Recrutement</a></li>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>

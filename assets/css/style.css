@@ -16,6 +16,7 @@ h1 {
 
 header {
     padding: 0.9rem 20px;
+    color: black;
 }
 
 ul {
@@ -25,34 +26,13 @@ ul {
     align-items: center;
 }
 
-li {
-    padding: 0 2%;
-    border-left: 1px solid black;
-}
-
-li:first-child {
-    border-left: none;
-}
-
 a {
     text-decoration: none;
 }
 
-li a {
-    color: black;
-}
-
 footer {
     margin-top: 3rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.81);
     color: white;
-}
-
-footer > h2 {
-    margin-top: 0px;
-    margin-bottom: 1rem;
 }
 
 form {
@@ -68,9 +48,28 @@ input {
     border-radius: 2px;
 }
 
+#newsletter {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.81);
+}
+
+#newsletter > h2 {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
 #email {
     width: 14%;
     padding: 10px 20px;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+    background-color: black;
 }
 
 .container {
@@ -94,8 +93,16 @@ input {
     height: 65vh;
 }
 
-#img-logo {
+#img-logo-banner {
     width: 57%;
+}
+
+#img-logo-footer {
+    width: 5%;
+    height: 100%;
+}
+
+.img-logo {
     object-fit: cover;
 }
 
@@ -151,4 +158,35 @@ input {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#header-menu li{
+    padding: 0 2%;
+    border-left: 1px solid black;
+}
+
+#header-menu li:first-child {
+    border-left: none;
+}
+
+#header-menu li a {
+    color: black;
+}
+
+#footer-menu {
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+#footer-menu li {
+    padding: 0 2%;
+    border-left: 1px solid white;
+}
+
+#footer-menu li:first-child {
+    border-left: none;
+}
+
+#footer-menu li a {
+    color: white;
 }
