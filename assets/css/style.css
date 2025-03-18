@@ -14,6 +14,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+}
+
 header {
     padding: 0.9rem 20px;
     color: black;
@@ -49,6 +53,7 @@ input {
 }
 
 #newsletter {
+    text-align: center;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     background-color: rgba(0, 0, 0, 0.81);
@@ -106,15 +111,15 @@ input {
     object-fit: cover;
 }
 
-.uppercase {
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .describe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+#actuality {
+    text-align: center;
 }
 
 .cta {
@@ -171,6 +176,7 @@ input {
 
 #header-menu li a {
     color: black;
+    text-transform: uppercase;
 }
 
 #footer-menu {
