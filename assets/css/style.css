@@ -14,6 +14,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+header {
+    padding: 0.9rem 20px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -40,34 +44,43 @@ li a {
 
 footer {
     margin-top: 3rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     background-color: rgba(0, 0, 0, 0.81);
+    color: white;
+}
+
+footer > h2 {
+    margin-top: 0px;
+    margin-bottom: 1rem;
 }
 
 form {
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: white;
     gap: 1%;
+    outline: none;
+}
+
+input {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 2px;
 }
 
 #email {
-    border-radius: 2%;
+    width: 14%;
     padding: 10px 20px;
-    width: 15%;
 }
 
 .container {
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 2rem auto 0rem;
     padding: 0.9rem 20px;
 }
 
-.container-banner {
+.container-header-banner {
     width: 100%;
     margin: 0px 0px;
 }
@@ -77,10 +90,8 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-image: url(../img/banner.jpg);
-    width: 100%;
-    height: 65vh;
+    height: 89vh;
 }
 
 #img-logo {
@@ -89,6 +100,7 @@ form {
 }
 
 .uppercase {
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -96,8 +108,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin: 2rem 5%;
 }
 
 .cta {
@@ -115,17 +125,10 @@ form {
     width: 7%;
 }
 
-.content {
+.cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-.content > h2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 .card {
@@ -135,7 +138,7 @@ form {
     padding-bottom: 4rem;
 }
 
-.card > h3, p {
+.card-content {
     margin: 2rem 0.5rem 2rem 1rem;
 }
 
